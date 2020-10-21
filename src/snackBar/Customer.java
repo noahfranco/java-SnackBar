@@ -18,7 +18,36 @@ public class Customer {
     }
 
 
-    // methoeds
+        // methoeds
+
+    // getters:
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getCash() {
+        return cash;
+    }
+
+    // setters:
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+//    add cash to cash on hand
+
+//    Given the total cost of the snacks to be purchased, reduce the cash on hand by that amount
+    public void setCash(double cash) {
+        this.cash = cash;
+    }
+
+
 
     @Override
     public String toString() {
